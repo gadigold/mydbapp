@@ -4,7 +4,7 @@
     <version>
         <release>1.0</release>
     </version>
-    <appdir></appdir>
+    <appdir>data</appdir>
     <scriptsdir>scripts</scriptsdir>
     <dependencies>
     <required>
