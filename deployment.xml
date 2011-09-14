@@ -14,8 +14,12 @@
     </required>
   </dependencies>
     <parameters>
-    <parameter display="db host" id="DB_HOST" readonly="false" required="true" type="string"/>
-    <parameter display="db name" id="DB_NAME" readonly="false" required="true" type="string"/>
+    <parameter display="db host" id="DB_HOST" readonly="false" required="true" type="string">
+       <defaultvalue>localhost</defaultvalue>
+    </parameter>
+    <parameter display="db name" id="DB_NAME" readonly="false" required="true" type="string">
+       <defaultvalue>test</defaultvalue>
+    </parameter>
     <parameter display="table name" id="DB_TABLE" readonly="false" required="false" type="string">
       <defaultvalue>employee</defaultvalue>
     </parameter>
