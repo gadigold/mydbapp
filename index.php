@@ -9,7 +9,7 @@ foreach ($arr as $value) {
 	$firstname = $value->firstname;
 	$lastname = $value->lastname;
 	$image = $value->photofile;
-	$output .= "<td>$firstname</td><td>$lastname</td><td align=center><img height='40%' width='40%' src=photos/$image'/></td>";
+	$output .= "<td>$firstname</td><td>$lastname</td><td align=center><img height='40%' width='40%' src='photos/$image'/></td>";
 	$output .= "</tr>";
 }
 $output .= "</table>";
