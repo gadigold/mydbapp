@@ -13,6 +13,8 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 -- Table structure for table `TABLE_PLACEHOLDER`
 --
 
+DROP TABLE IF EXISTS `TABLE_PLACEHOLDER`;
+
 CREATE TABLE `TABLE_PLACEHOLDER` (
   `id` int(11) NOT NULL auto_increment,
   `firstname` varchar(50) default NULL,
