@@ -14,5 +14,5 @@ foreach ($arr as $value) {
 }
 $output .= "</table>";
 echo $output;
-
+echo "done";
 ?>
